@@ -21,7 +21,7 @@ type InfiniteTweetListProps = {
   isError: boolean;
   hasMore: boolean | undefined;
   fetchNewTweets: () => Promise<unknown>;
-  tweets: Tweet[];
+  tweets: Tweet[] | null | undefined;
 };
 
 export function InfiniteTweetList({
