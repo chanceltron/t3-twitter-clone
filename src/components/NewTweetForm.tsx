@@ -52,7 +52,7 @@ function Form() {
         };
 
         return {
-          oldData,
+          ...oldData,
           pages: [
             {
               ...oldData.pages[0],
