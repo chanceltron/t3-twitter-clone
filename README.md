@@ -1,28 +1,34 @@
-# Create T3 App
+# T3-Tweet: A Full-stack Twitter Clone
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=t3-twitter-clone-chanceltron)](https://t3-twitter-clone-chanceltron.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/chanceltron/t3-twitter-clone)
 
-## What's next? How do I make an app with this?
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Overview
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+T3-Tweet is an educational project, a full-stack Twitter clone built as a portfolio piece. The project is developed using T3-App, a triad of TypeScript, Tailwindcss, and tRPC. The authentication is managed by NextAuth through Discord, and a MySQL database is used for data storage and management. 
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+This application replicates Twitter's functionality, including features like tweeting, liking posts, following other users, and exploring different user profiles. 
 
-## Learn More
+_**Disclaimer:** This is a portfolio project developed for educational purposes only. All rights to Twitter belong to Twitter, Inc. This project is not affiliated with, maintained, sponsored or endorsed by Twitter, Inc._
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+## Table of Contents
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+1. [Live Demo](#live-demo)
+2. [Technologies Used](#technologies-used)
+3. [Usage](#usage)
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## Live Demo
 
-## How do I deploy this?
+You can access the live demo of the project at: https://t3-twitter-clone-chanceltron.vercel.app
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Technologies Used
+
+- TypeScript: A language that builds on JavaScript by adding static type definitions.
+- Tailwindcss: A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.
+- tRPC: An end-to-end typesafe RPC framework, making it easy to create APIs and libraries with zero boilerplate and robust type safety.
+- NextAuth: An easy-to-implement, full-featured authentication library for Next.js projects.
+- MySQL: A popular open-source relational database management system.
+
+## Usage
+After successful authentication via Discord, users can post tweets, follow other users, like their tweets, and explore user profiles just like on the actual Twitter platform.
