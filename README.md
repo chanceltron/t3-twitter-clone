@@ -1,7 +1,7 @@
 # T3-Tweet: A Full-stack Twitter Clone
 
 [![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=t3-twitter-clone-chanceltron)](https://t3-twitter-clone-chanceltron.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/chanceltron/t3-twitter-clone)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-purple)](https://github.com/chanceltron/t3-twitter-clone)
 
 
 ## Overview
